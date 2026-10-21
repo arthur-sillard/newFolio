@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-title: "Fugaz One", Arial;
+  --font-code: "JetBrains Mono", monospace;
+  --font-regular: "Work Sans", monospace, system-ui;
+
+  --color-primary-light-1: #E4E4E4;
+  --color-primary-light-2: #F2F2F2;
+  --color-primary-light-3: #FFFFFF;
+
+  --color-primary-dark-1: #000000;
+  --color-primary-dark-2: #1F1F1F;
+  --color-primary-dark-3: #3A3A3A;
+
+
+  --color-text-light: oklch(.15 0 264);
+  --color-text-light-muted: oklch(.4 0 264);
+
+  --color-text-dark: oklch(.96 0 264);
+  --color-text-dark-muted: oklch(.76 0 264);
+}
