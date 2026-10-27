@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,100&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-title: "Fugaz One", Arial;
+  --font-title: "Plus Jakarta Sans", Arial;
   --font-code: "JetBrains Mono", monospace;
   --font-regular: "Work Sans", monospace, system-ui;
+
+  --font-dotted: "Doto", monospace;
 
   --color-primary-light-1: #E4E4E4;
   --color-primary-light-2: #F2F2F2;
