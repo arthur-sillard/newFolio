@@ -1,7 +1,7 @@
 import { useHideOnScroll } from "../../hooks/useHideOnScroll";
 import NavLink from "./NavLink";
 import ThemeToggle from "./ThemeToggle";
-import Tooltip from "../Tooltip";
+import Tooltip from "../Basics/Tooltip";
 
 export default function Navbar() {
     const hidden = useHideOnScroll()
@@ -17,11 +17,11 @@ export default function Navbar() {
 
                 <div className="hidden md:flex items-center gap-4">
                     <div>
-                        <NavLink href="/about">About</NavLink>
-                        <NavLink href="/projects">Projects</NavLink>
+                        <NavLink href="/projects">Projets</NavLink>
+                        <NavLink href="/about">À propos</NavLink>
                         <NavLink href="/contact">Contact</NavLink>
                     </div>
-                    <Tooltip label="Change theme">
+                    <Tooltip label="Changer de thème">
                         <ThemeToggle />
                     </Tooltip>
                 </div>
