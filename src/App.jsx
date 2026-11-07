@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './components/Hero/Hero'
 import Section from './components/Section/Section'
 import ProjectWidget from './components/Projects/ProjectWidget'
+import AboutBento from './components/About/AboutBento'
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
           </Section>
 
           <Section id={"about"} title={"À propos"}>
-            This is a test
+            <AboutBento />
           </Section>
 
           <Section id={"contact"} title={"Contactez moi !"}>
@@ -46,8 +47,6 @@ function App() {
           </Section>
           
         </div>
-
-
       </div>
     </>
   )

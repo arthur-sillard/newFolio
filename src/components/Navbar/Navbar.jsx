@@ -11,7 +11,7 @@ export default function Navbar() {
             className={`flex justify-center fixed top-0 inset-x-0 z-50 backdrop-blur-2xl transition-transform duration-300 ${hidden ? '-translate-y-full' : 'translate-y-0'}`}
         >
             <div className="flex items-center justify-between px-4 py-2 w-4xl">
-                <a href="/" className="text-text-light dark:text-text-dark text-xl tracking-tight font-title font-semibold">
+                <a href="/" className="text-text-light dark:text-text-dark text-2xl tracking-tight font-fluid font-semibold">
                     Arthur Sillard
                 </a>
 

@@ -3,10 +3,19 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: FluidLetters;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/static/fonts/FluidLetters-Regular.otf") format("opentype");
+}
+
 @theme {
   --font-title: "Plus Jakarta Sans", Arial;
   --font-code: "JetBrains Mono", monospace;
   --font-regular: "Work Sans", monospace, system-ui;
+  --font-fluid: "FluidLetters", Arial;
 
   --font-dotted: "Doto", monospace;
 
@@ -24,4 +33,9 @@
 
   --color-text-dark: oklch(.96 0 264);
   --color-text-dark-muted: oklch(.76 0 264);
+
+  --color-border-grey: oklch(.4 0 264);
+
+  --shadow-box-light: -0.25rem 0.25rem var(--color-primary-dark-1);
+  --shadow-box-dark: -0.25rem 0.25rem var(--color-primary-light-1);
 }

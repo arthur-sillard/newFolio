@@ -3,7 +3,7 @@ import Button from "../Basics/Button";
 export default function Hero() {
     return (
         <div className="pt-20 md:pt-40 mb-10 md:mb-20">
-            <h1 class="text-text-light dark:text-text-dark text-xl sm:text-2xl md:text-3xl tracking-tight font-semibold font-title">
+            <h1 class="text-text-light dark:text-text-dark text-xl sm:text-2xl md:text-3xl tracking-tight font-semibold font-fluid">
                 Bonjour, je suis Arthur <br/>
                 Étudiant en BUT informatique
             </h1>
