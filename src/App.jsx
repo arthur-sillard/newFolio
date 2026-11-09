@@ -8,7 +8,7 @@ import AboutBento from './components/About/AboutBento'
 function App() {
   return (
     <>
-      <div className="bg-primary-light-1 dark:bg-primary-dark-1 min-h-dvh h-full flex flex-col items-center scroll-smooth antialiased">
+      <div className="bg-primary-light-1 dark:bg-primary-dark-1 min-h-dvh h-full flex flex-col items-center antialiased">
         <Navbar />
         <div className='w-full h-15'></div>
 
