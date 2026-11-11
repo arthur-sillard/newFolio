@@ -5,6 +5,7 @@ import Section from './components/Section/Section'
 import ProjectWidget from './components/Projects/ProjectWidget'
 import AboutBento from './components/About/AboutBento'
 
+
 function App() {
   return (
     <>
