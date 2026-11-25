@@ -8,7 +8,7 @@ const education = [
 ]
 
 const experience = [
-    { name: "CapGemini", date: "2023", location: "Nantes"}
+    { name: "Stage | CapGemini", date: "2023", location: "Nantes"}
 ]
 
 export default function AboutBento() {
@@ -19,10 +19,10 @@ export default function AboutBento() {
                     <h3 className="font-fluid text-xl text-text-light dark:text-text-dark">
                         Profil
                     </h3>
-                    <p className="pl-1 font-regular text-text-light dark:text-text-dark">
+                    <p className="pl-1 py-1 font-regular text-text-light dark:text-text-dark">
                         Étudiant en 2e année de BUT Informatique à l’IUT de Nantes, je recherche un stage de développement logiciel / web de 8
-à 12 semaines à partir du 14 avril 2027. À travers mes projets académiques et personnels, j’ai développé des compétences
-en programmation orientée objet, conception logicielle, développement web et tests.
+                        à 12 semaines à partir du 14 avril 2027. À travers mes projets académiques et personnels, j’ai développé des compétences
+                        en programmation orientée objet, conception logicielle, développement web et tests.
                     </p>
                 </BentoBox>
                 <BentoBox span={1} spanMd={3}>
@@ -35,7 +35,12 @@ en programmation orientée objet, conception logicielle, développement web et t
                     <h3 className="font-fluid text-xl text-text-light dark:text-text-dark">
                         Expérience
                     </h3>
-                    <Timeline list={experience}/>
+                    <Timeline list={experience} type={"experience"}/>
+                </BentoBox>
+                <BentoBox span={1} spanMd={5}>
+                    <h3 className="font-fluid text-xl text-text-light dark:text-text-dark">
+                        Compétences
+                    </h3>
                 </BentoBox>
             </BentoLayout>
         </>
