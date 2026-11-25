@@ -7,6 +7,10 @@ const education = [
     { name: "Baccalauréat Général (Maths & NSI)", date: "2025", location: "Ancenis" }
 ]
 
+const experience = [
+    { name: "CapGemini", date: "2023", location: "Nantes"}
+]
+
 export default function AboutBento() {
     return (
         <>
@@ -23,9 +27,10 @@ export default function AboutBento() {
                     <Timeline list={education} />
                 </BentoBox>
                 <BentoBox span={1} spanMd={2} >
-                    <p className="font-regular text-text-light dark:text-text-dark">
-                        Timeline experience
-                    </p>
+                    <h3 className="font-fluid text-2xl text-text-light dark:text-text-dark">
+                        Expérience
+                    </h3>
+                    <Timeline list={experience}/>
                 </BentoBox>
             </BentoLayout>
         </>

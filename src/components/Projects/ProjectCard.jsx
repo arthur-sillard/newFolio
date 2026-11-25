@@ -1,4 +1,4 @@
-export default function ProjectWidget({ href, title, description, date }) {
+export default function ProjectCard({ href, title, description, date }) {
     return (
         <div
         className="flex flex-col gap-1 w-full h-fit px-4 py-2 bg-primary-light-2 dark:bg-primary-dark-2 border border-border-grey">
